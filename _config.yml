@@ -1,1 +1,3 @@
-theme: jekyll-theme-slate
+theme: minima
+minima:
+  skin: dark
