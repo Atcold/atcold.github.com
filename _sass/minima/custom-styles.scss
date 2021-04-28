@@ -3,4 +3,47 @@
  */
 .site-header {
   border-top: none;
+  line-height: $base-line-height * $base-font-size * 3.25;
 }
+
+.site-title {
+  @include relative-font-size(2.625);
+  font-weight: 400;
+  line-height: 80%;
+  margin-top: 15pt;
+  margin-bottom: 15pt;
+  color: #80b1d3 !important;
+}
+
+.site-nav {
+  top: 19px;
+}
+
+/**
+ * Titles
+ */
+h1 {
+  color: #bebada !important;
+}
+
+h2 {
+  color: #fccde5 !important;
+}
+
+/**
+ * Custom
+ */
+.warning {
+  color: #fb8072;
+  font-weight: bold;
+}
+
+.post-content {
+  h1, h2, h3 { margin-top: $spacing-unit}
+}
+
+.post-content a {
+  color: #8dd3c7 !important;
+}
+
+$link-base-color: #8dd3c7 !default;
