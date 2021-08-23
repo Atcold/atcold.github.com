@@ -57,12 +57,11 @@ Now, at every refresh of the screen, I'm computing the linear transformation $\b
 So, we have that:
 
 $$
-\left\lbrace\begin{align}
-  \bm{Au} &= \mu\bm{u} \\
-  \bm{Av} &= \lambda\bm{v}
-\end{align}\right.,
+\begin{cases}
+  \bm{Au} = \mu\bm{u} \\
+  \bm{Av} = \lambda\bm{v}
+\end{cases},
 $$
-
 
 or, with a more compact notation,
 
