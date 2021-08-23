@@ -13,6 +13,7 @@
   margin-top: 15pt;
   margin-bottom: 15pt;
   color: #80b1d3 !important;
+  text-decoration: none !important;
 }
 
 .site-nav {
@@ -23,18 +24,18 @@
  * Titles
  */
 h1 {
-  color: #bebada !important;
+  color: $lavender;
 }
 
 h2 {
-  color: #fccde5 !important;
+  color: $pink;
 }
 
 /**
  * Custom
  */
 .warning {
-  color: #fb8072;
+  color: $red;
   font-weight: bold;
 }
 
@@ -42,8 +43,51 @@ h2 {
   h1, h2, h3 { margin-top: $spacing-unit}
 }
 
-.post-content a {
+.post-content a, .post-link {
   color: #8dd3c7 !important;
 }
 
 $link-base-color: #8dd3c7 !default;
+
+// .post-link {
+//   color: #8dd3c7 !important;
+// }
+
+// Fix title on the homepage, which is no longer layout: home
+h1#about-me {
+  font-size: 2em;
+  line-height: 1.5;
+  margin-top: auto;
+}
+
+// Blog layout is home, so set size as other pages
+.page-heading {
+  font-size: 2.625em;
+  letter-spacing: -1px;
+  line-height: 1.15;
+}
+
+iframe {
+  border: none;
+  display: block;
+  margin: auto;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+definition {
+  display: block;
+  border: 4px solid $border-color-01;
+  padding: $spacing-unit / 2;
+  font-size: 1.2em;
+  margin-bottom: 15px;
+}
+
+def {
+  color: $pink;
+  font-style: italic;
+}
+
+blockquote {
+  font-size: 0.75em;
+}

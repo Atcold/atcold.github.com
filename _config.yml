@@ -10,3 +10,7 @@ minima:
     youtube_channel: UCupQLyNchb9-2Z5lmUOIijw
     youtube_channel_name: Alfredo Canziani
 google_analytics: G-NGQWNXRS74
+highlighter: rouge
+kramdown:
+    math_engine: katex
+    syntax_highlighter: rouge
