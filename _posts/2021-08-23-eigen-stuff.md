@@ -20,10 +20,7 @@ In the interactive demo below, choose two auto-directions by clicking on two (po
 Drag around the <green>chosen eigenvectors</green> to generate arbitrary linear transformations, mapping <blue>blue points</blue> to <red>red points</red>.
 Notice how the eigenvectors will solely move along their auto-direction, effectively changing only their magnitude.
 
-<iframe
-  width="600" height="400"
-  src="https://preview.p5js.org/Atcold/embed/fBHH28y_T"
-></iframe>
+<iframe src="https://preview.p5js.org/Atcold/embed/fBHH28y_T"></iframe>
 
 
 > As you can clearly tell, eigenvectors don't need to be orthogonal, nor are necessarily the axis of the <red>red ellipse</red>.

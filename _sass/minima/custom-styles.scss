@@ -67,13 +67,18 @@ h1#about-me {
   line-height: 1.15;
 }
 
+// Import JS demos created in Processing JS
 iframe {
   border: none;
   display: block;
   margin: auto;
   position: relative;
   margin-bottom: 15px;
+  width: 600px;
+  height: 400px;
 }
+// If the page is lesser than 600px, set that width to the iframe
+@media (max-width: 600px) {iframe{width: 100%;}}
 
 definition {
   display: block;
