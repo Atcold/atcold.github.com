@@ -13,8 +13,8 @@ You can read more about my teaching philosophy and methods in [this article](htt
 
 ## Deep Learning courses
 
-- [NYU-DLSP21](https://github.com/Atcold/NYU-DLSP21)
-- [NYU-DLSP20](https://github.com/Atcold/pytorch-Deep-Learning) (major release)
+- [NYU-DLSP21](https://atcold.github.io/NYU-DLSP21/)
+- [NYU-DLSP20](https://atcold.github.io/pytorch-Deep-Learning/) (major release)
 - [NYU-DLSP19](https://github.com/Atcold/pytorch-Deep-Learning/releases/tag/dlsp19)
 - [AIMS-DLFL19](https://github.com/Atcold/pytorch-Deep-Learning/releases/tag/aims-fl18)
 - [CoDaS-HEP18](https://github.com/Atcold/pytorch-Deep-Learning/releases/tag/v1.0.0)
