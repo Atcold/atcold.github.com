@@ -21,3 +21,5 @@ You can read more about my teaching philosophy and methods in [this article](htt
 - [NYU-DLSP18](https://docs.google.com/document/d/1_p1Mw-NtMGN_vpas_pchLsQC2u0NM5mTnRapBrQ2ivk/)
 - [Purdue-DLFL16](https://docs.google.com/document/d/1ugJRMqQ_cCUQC1B8mSE0iro7sKrDT8-BnppTZv0rA08/)
 - [torch-Video-Tutorials](https://github.com/Atcold/torch-Video-Tutorials)
+
+<p class="last-edit">Last update: 3 Sep 2021.</p>

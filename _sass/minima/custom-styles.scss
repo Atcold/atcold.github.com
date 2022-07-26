@@ -43,6 +43,12 @@ h3 {
   font-weight: bold;
 }
 
+.last-edit {
+  text-align: right;
+  opacity: 0.5;
+  font-size: 0.75em;
+}
+
 .post-content {
   h1, h2, h3 { margin-top: $spacing-unit}
 }

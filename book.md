@@ -4,8 +4,6 @@ title: Book
 ---
 
 
-<p class="warning">Last update: 26 Jul 2022.</p>
-
 Since Feb 2022 I've been writing our textbook on Deep Learning with an Energy perspective.
 It will come in two versions: an electronic one with a dark background for screens (freely available) and a physical one with white background for printers (for purchase).
 
@@ -45,7 +43,7 @@ And if you've been my student, you already know that at the bottom left we'll ha
 To keep myself motivated and avoid going crazy too much, I post the most painful drawings on Twitter, where my followers keep me sane by sending copious amount of love ❤️.
 You can find here a few of these tweets.
 
-<details>
+<p><details>
   <summary>Load tweets (may take a few seconds)</summary>
 
 <blockquote class="twitter-tweet" data-dnt="true" data-theme="dark"><p lang="en" dir="ltr">I think I&#39;ve just acquired the title of TikZ-ninja. <a href="https://t.co/dq43bvjcFG">pic.twitter.com/dq43bvjcFG</a></p>&mdash; Alfredo Canziani (@alfcnz) <a href="https://twitter.com/alfcnz/status/1491433488452829190?ref_src=twsrc%5Etfw">February 9, 2022</a></blockquote>
@@ -82,4 +80,7 @@ You can find here a few of these tweets.
 
 <blockquote class="twitter-tweet" data-dnt="true" data-theme="dark"><p lang="en" dir="ltr">Chapter 1 (2 and 3) completed! 🥳🥳🥳<br>We&#39;ve seen a linear and a bunch of non-linear transformations. But what can a stack of linear and non-linear layers do? Here we have two fully-connected nets doing their nety stuff on some random points. 😀😀😀 <a href="https://t.co/otExi5h7bb">pic.twitter.com/otExi5h7bb</a></p>&mdash; Alfredo Canziani (@alfcnz) <a href="https://twitter.com/alfcnz/status/1550494573205520384?ref_src=twsrc%5Etfw">July 22, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-</details>
+</details></p>
+
+
+<p class="last-edit">Last update: 26 Jul 2022.</p>
