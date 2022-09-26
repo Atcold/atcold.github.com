@@ -82,5 +82,23 @@ You can find here a few of these tweets.
 
 </details></p>
 
-
 <p class="last-edit">Last update: 26 Jul 2022.</p>
+
+
+## Oct 2022 update
+
+For the entire month of Aug and half of Sep I got stuck on implementing a working sparse coding algo for a low-dimensional toy example.
+**Nothing** was working for a long while, although I managed to get the expected result (see tweets below).
+Then, I spent a couple of weeks on the new semester's lectures, creating new content (slides below, video available soon) on back-propagation, which I've never taught at NYU, topic that will make it to the book.
+Anyhow, now I'm back to writing! 🤓
+
+<p><details>
+  <summary>Load tweets (may take a few seconds)</summary>
+
+<blockquote class="twitter-tweet" data-dnt="true" data-theme="dark"><p lang="en" dir="ltr">Zooming in a little, for some finer details. <a href="https://t.co/i57E0rYwzH">pic.twitter.com/i57E0rYwzH</a></p>&mdash; Alfredo Canziani (@alfcnz) <a href="https://twitter.com/alfcnz/status/1568360297978597376?ref_src=twsrc%5Etfw">September 9, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-dnt="true" data-theme="dark"><p lang="en" dir="ltr">Backpropagation ⏮ of the gradOutput throughout each network&#39;s module allows us to compute the rate of change of the loss 📈 wrt the model&#39;s parameter.<br>To inspect 🧐 its value we can simply check the gradBias of any linear layer. <a href="https://t.co/buysxDBGD7">pic.twitter.com/buysxDBGD7</a></p>&mdash; Alfredo Canziani (@alfcnz) <a href="https://twitter.com/alfcnz/status/1574434013565145088?ref_src=twsrc%5Etfw">September 26, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+</details></p>
+
+<p class="last-edit">Last update: 26 Sep 2022.</p>
