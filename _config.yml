@@ -5,10 +5,9 @@ remote_theme: jekyll/minima
 minima:
   skin: dark
   social_links:
-    twitter: alfcnz
-    github:  Atcold
-    youtube_channel: UCupQLyNchb9-2Z5lmUOIijw
-    youtube_channel_name: Alfredo Canziani
+    - { platform: twitter, user_url: "https://twitter.com/alfcnz" }
+    - { platform: github,  user_url: "https://github.com/Atcold" }
+    - { platform: youtube,  user_url: "https://www.youtube.com/channel/UCupQLyNchb9-2Z5lmUOIijw" }
 google_analytics: G-NGQWNXRS74
 highlighter: rouge
 kramdown:
