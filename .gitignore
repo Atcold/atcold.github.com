@@ -1,3 +1,4 @@
 # Ignore temporary files
 _site/
 .jekyll-cache/
+.vscode/
