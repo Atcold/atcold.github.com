@@ -94,7 +94,7 @@ iframe {
 definition {
   display: block;
   border: 4px solid $border-color-01;
-  padding: $spacing-unit / 2;
+  padding: calc($spacing-unit / 2);
   font-size: 1.2em;
   margin-bottom: 15px;
 }
