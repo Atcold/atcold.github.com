@@ -102,3 +102,57 @@ Anyhow, now I'm back to writing! 🤓
 </details></p>
 
 <p class="last-edit">Last update: 26 Sep 2022.</p>
+
+
+## May 2023 update
+
+Oh boy, this 4th chapter took me while (mostly because I've focussed also on other things, including the Spring 2023 edition of the course)… but it's done now!
+In these last few months I've wrote about *undercomplete autoencoders* (AE), *denoising AE*, *variational AE*, *contractive AE*, and *generative adversarial nets*.
+Thanks to [Gabriel Peyré](https://twitter.com/gabrielpeyre), I've developed a method to separate stationary sinks and sources for a dynamics field (which I may write an article about), and it's integral part of the book explanations.
+
+Moreover, I've been pushing a few videos from the Fall 2022 edition of the course, which give a preview on the chapters I've been writing, *e.g.* neural nets components, backpropagation (first time teaching it), energy-based classification, PyTorch training, K-means, and sparse coding (at least for now).
+Finally, over the Winter break, I've been teaching 12 years-olds about the maths and computer science behind generative AI, and I'm considering using [p5.js](https://p5js.org/) as a tool to teach programming to beginners.
+
+What's next?
+I'm sending this first draft, with its 4 chapters (Intro, Spiral, Ellipse, Generative) and companion Jupyter Notebooks to Yann for a review.
+Meanwhile, I'll be writing down the Backprop chapter, possibly and article, and pushing a few more videos on YouTube.
+Once the review is completed, a first draft will pop to this website for the public.
+
+<p><details>
+  <summary>Load tweets (may take a few seconds)</summary>
+
+<h3>Figures from chapter 4</h3>
+
+<blockquote class="twitter-tweet" data-dnt="true" data-theme="dark"><p lang="en" dir="ltr">A 2 → 100 → 100 → 1 → 100 → 100 → 2 hyperbolic tangent undercomplete autoencoder trying to recover a 1d manifold from 50 2d data points. 📖📖📖 <a href="https://t.co/ImKbpPTavY">pic.twitter.com/ImKbpPTavY</a></p>&mdash; Alfredo Canziani (@alfcnz) <a href="https://twitter.com/alfcnz/status/1591242927283503104?ref_src=twsrc%5Etfw">November 12, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-conversation="none" data-dnt="true" data-theme="dark"><p lang="en" dir="ltr">Let’s get some sections done! 🤓🤓🤓 <a href="https://t.co/13bllkQ3wx">pic.twitter.com/13bllkQ3wx</a></p>&mdash; Alfredo Canziani (@alfcnz) <a href="https://twitter.com/alfcnz/status/1602751458163556353?ref_src=twsrc%5Etfw">December 13, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-dnt="true" data-theme="dark"><p lang="en" dir="ltr">A variational autoencoder (VAE) limits the low-energy region by mapping the inputs to fuzzy bubbles. The hidden representation can be made uninformative by increasing the temperature during learning, which induces the bubbles to be all centred at the origin and have unit size. <a href="https://t.co/qpa8ptsJDD">pic.twitter.com/qpa8ptsJDD</a></p>&mdash; Alfredo Canziani (@alfcnz) <a href="https://twitter.com/alfcnz/status/1636458757637939216?ref_src=twsrc%5Etfw">March 16, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-dnt="true" data-theme="dark"><p lang="en" dir="ltr">Done with the VAE chapter! 🥳🥳🥳<br>Two sections to go and the first draft ships! 🥳🥳🥳<br>Yay! 🥳🥳🥳 <a href="https://t.co/Lj30urRpZH">pic.twitter.com/Lj30urRpZH</a></p>&mdash; Alfredo Canziani (@alfcnz) <a href="https://twitter.com/alfcnz/status/1639325894572376067?ref_src=twsrc%5Etfw">March 24, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-dnt="true" data-theme="dark"><p lang="en" dir="ltr">We have a caption now! The contractive autoencoder section is completed.<br>One section to go! 🥳🥳🥳 <a href="https://t.co/cpid936wDr">https://t.co/cpid936wDr</a> <a href="https://t.co/mTIDqkYSqm">pic.twitter.com/mTIDqkYSqm</a></p>&mdash; Alfredo Canziani (@alfcnz) <a href="https://twitter.com/alfcnz/status/1648432113665064963?ref_src=twsrc%5Etfw">April 18, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-dnt="true" data-theme="dark"><p lang="en" dir="ltr">Epoch 0 vs. epoch 18k.<br>Losses and generator gradients&#39; norm.<br>Critic learnt energy. <a href="https://t.co/7swifi5qNj">pic.twitter.com/7swifi5qNj</a></p>&mdash; Alfredo Canziani (@alfcnz) <a href="https://twitter.com/alfcnz/status/1656749267971633175?ref_src=twsrc%5Etfw">May 11, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<h3>Videos from DLFL23</h3>
+
+<blockquote class="twitter-tweet" data-dnt="true" data-theme="dark"><p lang="en" dir="ltr">Let&#39;s end this year by starting to upload the first video of NYU Deep Learning Fall 2022 edition! 🥳🥳🥳<br>This is an incremental version based on DLSP21. Therefore, only new content will be uploaded.<br><br>Enjoy the view.<a href="https://t.co/TxaNhQgUbO">https://t.co/TxaNhQgUbO</a> <a href="https://t.co/hVZYWEJMv8">pic.twitter.com/hVZYWEJMv8</a></p>&mdash; Alfredo Canziani (@alfcnz) <a href="https://twitter.com/alfcnz/status/1608893497284898817?ref_src=twsrc%5Etfw">December 30, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-dnt="true" data-theme="dark"><p lang="en" dir="ltr">Let&#39;s start the year by brushing up on the basics of neural nets: linear and non-linear transformations.<br>In this episode, we&#39;re concerned with inference only. Forward and backwards. We introduce the cost and the energy. 🔋<br>Website: <a href="https://t.co/3yY8CMLiXz">https://t.co/3yY8CMLiXz</a><a href="https://t.co/zrqH4CG0mr">https://t.co/zrqH4CG0mr</a> <a href="https://t.co/MrSeV3u40S">pic.twitter.com/MrSeV3u40S</a></p>&mdash; Alfredo Canziani (@alfcnz) <a href="https://twitter.com/alfcnz/status/1609594943173017601?ref_src=twsrc%5Etfw">January 1, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-dnt="true" data-theme="dark"><p lang="en" dir="ltr">The first video of the «Classification, an Energy Perspective» saga shows two nets&#39; data space transformation, introduces the data format, illustrates the predictor-decoder architecture, and explains how gradient descent is used for learning.<br>Enjoy 🤓❤️🤗<a href="https://t.co/glH2iGydIJ">https://t.co/glH2iGydIJ</a> <a href="https://t.co/S33JxwdH83">pic.twitter.com/S33JxwdH83</a></p>&mdash; Alfredo Canziani (@alfcnz) <a href="https://twitter.com/alfcnz/status/1610741048757870595?ref_src=twsrc%5Etfw">January 4, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-dnt="true" data-theme="dark"><p lang="en" dir="ltr">The second video of the «Classification, an Energy Perspective» saga teaches backprop, visualises the energy landscape, and explains how contrastive learning works. 🤓<br>This lecture alone was the reason DLFL22 has been pushed online. I hope you like it. ❤️<a href="https://t.co/5vVQRwLzxK">https://t.co/5vVQRwLzxK</a> <a href="https://t.co/x0lQaT9hKz">pic.twitter.com/x0lQaT9hKz</a></p>&mdash; Alfredo Canziani (@alfcnz) <a href="https://twitter.com/alfcnz/status/1612516688703922176?ref_src=twsrc%5Etfw">January 9, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-dnt="true" data-theme="dark"><p lang="en" dir="ltr">The third and last video of the «Classification, an Energy Perspective» saga covers neural net 5-step training code in <a href="https://twitter.com/PyTorch?ref_src=twsrc%5Etfw">@PyTorch</a>, gradient accumulation justification, reprodution of energy surface for different model, and ensembling uncertainty estimation.<a href="https://t.co/oyEGlgyhTE">https://t.co/oyEGlgyhTE</a> <a href="https://t.co/MaZsSSRg8U">pic.twitter.com/MaZsSSRg8U</a></p>&mdash; Alfredo Canziani (@alfcnz) <a href="https://twitter.com/alfcnz/status/1628077872953929751?ref_src=twsrc%5Etfw">February 21, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-dnt="true" data-theme="dark"><p lang="en" dir="ltr">In this lecture, we start with two examples of decoder-only latent-variable EBM (𝐾-means and sparse coding), move to target-prop via amortised inference, to finally land the autoencoder architecture. 🤓<br>Back to using <a href="https://twitter.com/AdobeAE?ref_src=twsrc%5Etfw">@AdobeAE</a> for the animations! 🥳<a href="https://t.co/ATbVwuxmcC">https://t.co/ATbVwuxmcC</a> 🎥 <a href="https://t.co/kWEF68cE9Q">pic.twitter.com/kWEF68cE9Q</a></p>&mdash; Alfredo Canziani (@alfcnz) <a href="https://twitter.com/alfcnz/status/1630642589677305859?ref_src=twsrc%5Etfw">February 28, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<h3>Teaching Italian 7th graders</h3>
+
+<blockquote class="twitter-tweet" data-dnt="true" data-theme="dark"><p lang="en" dir="ltr">I taught 4 hours of Deep Learning to a class of 7th graders. I didn’t dumb it down at all. I just used the same analogies and explanations I use with the grown ups. By the end I was in love with their young and fresh minds and total absolute attention. ❤️<a href="https://t.co/CFP4Mkarwx">https://t.co/CFP4Mkarwx</a> <a href="https://t.co/Ng0veJLftq">pic.twitter.com/Ng0veJLftq</a></p>&mdash; Alfredo Canziani (@alfcnz) <a href="https://twitter.com/alfcnz/status/1615721421254328320?ref_src=twsrc%5Etfw">January 18, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+</details></p>
+
+<p class="last-edit">Last update: 16 May 2023.</p>
