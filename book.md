@@ -106,7 +106,7 @@ Anyhow, now I'm back to writing! 🤓
 
 ## May 2023 update
 
-Oh boy, this 4th chapter took me while (mostly because I've focussed also on other things, including the Spring 2023 edition of the course)… but it's done now!
+Oh boy, this 4<sup>th</sup> chapter took me while (mostly because I've focussed also on other things, including the Spring 2023 edition of the course)… but it's done now!
 In these last few months I've wrote about *undercomplete autoencoders* (AE), *denoising AE*, *variational AE*, *contractive AE*, and *generative adversarial nets*.
 Thanks to [Gabriel Peyré](https://twitter.com/gabrielpeyre), I've developed a method to separate stationary sinks and sources for a dynamics field (which I may write an article about), and it's integral part of the book explanations.
 
@@ -135,7 +135,7 @@ Once the review is completed, a first draft will pop to this website for the pub
 
 <blockquote class="twitter-tweet" data-dnt="true" data-theme="dark"><p lang="en" dir="ltr">Epoch 0 vs. epoch 18k.<br>Losses and generator gradients&#39; norm.<br>Critic learnt energy. <a href="https://t.co/7swifi5qNj">pic.twitter.com/7swifi5qNj</a></p>&mdash; Alfredo Canziani (@alfcnz) <a href="https://twitter.com/alfcnz/status/1656749267971633175?ref_src=twsrc%5Etfw">May 11, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<h3>Videos from DLFL23</h3>
+<h3>Videos from DLFL22</h3>
 
 <blockquote class="twitter-tweet" data-dnt="true" data-theme="dark"><p lang="en" dir="ltr">Let&#39;s end this year by starting to upload the first video of NYU Deep Learning Fall 2022 edition! 🥳🥳🥳<br>This is an incremental version based on DLSP21. Therefore, only new content will be uploaded.<br><br>Enjoy the view.<a href="https://t.co/TxaNhQgUbO">https://t.co/TxaNhQgUbO</a> <a href="https://t.co/hVZYWEJMv8">pic.twitter.com/hVZYWEJMv8</a></p>&mdash; Alfredo Canziani (@alfcnz) <a href="https://twitter.com/alfcnz/status/1608893497284898817?ref_src=twsrc%5Etfw">December 30, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
