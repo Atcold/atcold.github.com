@@ -30,7 +30,7 @@ Captions: 🇬🇧, 🇫🇷.
 First time the material was ready for the public.
 Started in person and later went online because of [CoViD-19](https://en.wikipedia.org/wiki/COVID-19).
 (First time using [Adobe Premiere](https://www.adobe.com/products/premiere.html) extensively.)
-This edition has [lecture notes](https://atcold.github.io/pytorch-Deep-Learning/) translated in over 15 languages by over 500 volunteers.
+This edition has [lecture notes](https://atcold.github.io/NYU-DLSP20/) translated in over 15 languages by over 500 volunteers.
 Captions: 🇬🇧, 🇫🇷.
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLLHTzKZzVU9eaEyErdV26ikyolxOsz6mq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
