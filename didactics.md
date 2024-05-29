@@ -13,6 +13,7 @@ You can read more about my teaching philosophy and methods in [this article](htt
 
 ## Deep Learning courses
 
+- [NYU-AISP24](NYU-AISP24/)
 - [NYU-DLFL22](https://atcold.github.io/NYU-DLFL22/)
 - [NYU-DLSP21](https://atcold.github.io/NYU-DLSP21/)
 - [NYU-DLSP20](https://atcold.github.io/NYU-DLSP20/) (major release)
@@ -23,4 +24,4 @@ You can read more about my teaching philosophy and methods in [this article](htt
 - [Purdue-DLFL16](https://docs.google.com/document/d/1ugJRMqQ_cCUQC1B8mSE0iro7sKrDT8-BnppTZv0rA08/)
 - [torch-Video-Tutorials](https://github.com/Atcold/torch-Video-Tutorials/)
 
-<p class="last-edit">Last update: 17 Dec 2022.</p>
+<p class="last-edit">Last update: 29 May 2024.</p>
