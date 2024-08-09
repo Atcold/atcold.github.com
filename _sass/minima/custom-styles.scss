@@ -107,3 +107,25 @@ def {
 blockquote {
   font-size: 0.75em;
 }
+
+// Fixes padding to code blocks inside list items
+li .highlight {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+// Removes extra spacing to paragraphs inside tables
+td p {
+  margin-bottom: 0px;
+}
+
+// Connects code block to table bottom for SN's figure 2
+table#SN-fig2 {
+  margin-bottom: 0px;
+}
+
+// Better formatting for blockquotes inside tables
+td blockquote {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
