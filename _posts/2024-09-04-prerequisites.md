@@ -51,6 +51,20 @@ This is a *requirement*.
 For a more in-depth coverage of the topic, I like Gilbert's [Introduction to linear algebra](https://math.mit.edu/~gs/linearalgebra/ila6/indexila6.html) and corresponding video lectures.
 
 
+### Trefor
+
+[His YouTube channel](https://www.youtube.com/@DrTrefor) is worth your subscription.
+Full playlists for discrete maths, linear algebra, calculus I-IV, and differential equations.
+
+
+### Eigensteve
+
+Do you need to brush up control?
+Check out [Control Bootcamp](https://www.youtube.com/playlist?list=PLMrJAkhIeNNR20Mz-VpzgfQs5zrYi085m).
+Additional playlists include differential equations and dynamical systems, complex analysis, vector calculus and partial differential equations, and singular value decomposition.
+[Steve's YouTube channel](https://www.youtube.com/@Eigensteve) is full of extremely well done lectures.
+
+
 ## Blogs
 
 
