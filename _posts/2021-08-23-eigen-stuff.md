@@ -108,10 +108,10 @@ I can connect the GitHub Discussion page here, or simply provide a link, so it d
 
 ```bibtex
 @misc{canziani2021eigen-stuff,
-author = {Alfredo Canziani},
-title = {Eigen-stuff},
-howpublished = {\url{https://atcold.github.io/2021/08/23/eigen-stuff}},
-note = {Translation. Accessed: <date>},
-year = {2021}
+  author = {Alfredo Canziani},
+  title = {Eigen-stuff},
+  howpublished = {\url{https://atcold.github.io/2021/08/23/eigen-stuff}},
+  note = {Translation. Accessed: <date>},
+  year = {2021}
 }
 ```
