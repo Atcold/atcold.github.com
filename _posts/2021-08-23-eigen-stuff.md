@@ -102,3 +102,16 @@ Anyhow, feel free to [have a look](https://editor.p5js.org/Atcold/sketches/fBHH2
 Keep in mind this is the first time I'm writing any JavaScript, so things may not be done "the proper way".
 Also, I'm thinking whether to have a comment section below or not.
 I can connect the GitHub Discussion page here, or simply provide a link, so it does not clutter everything.
+
+
+## How to cite this blog
+
+```bibtex
+@misc{canziani2021eigen-stuff,
+author = {Alfredo Canziani},
+title = {Eigen-stuff},
+howpublished = {\url{https://atcold.github.io/2021/08/23/eigen-stuff}},
+note = {Translation. Accessed: <date>},
+year = {2021}
+}
+```
