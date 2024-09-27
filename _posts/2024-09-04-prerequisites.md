@@ -17,7 +17,7 @@ I teach from [primary](https://x.com/alfcnz/status/1615721421254328320) and [mid
 From maths, science, and programming to music, dancing, and cooking.
 
 
-### From my (former) high-school inter
+### From my (former) high-school intern
 
 Vivek put together these two [manim](https://www.manim.community/)s for me:
 
@@ -50,6 +50,12 @@ This is a *requirement*.
 
 For a more in-depth coverage of the topic, I like Gilbert's [Introduction to linear algebra](https://math.mit.edu/~gs/linearalgebra/ila6/indexila6.html) and corresponding video lectures.
 
+**NEW** «Linear Algebra and Its Applications» by David & Steven Lay, and Judi McDonald.
+
+<p><details>
+  <summary>Load tweet</summary>
+<blockquote class="twitter-tweet" data-dnt="true" data-theme="dark"><p lang="en" dir="ltr">«Linear Algebra and Its Applications» by David &amp; Steven Lay, and Judi McDonald is truly a masterpiece.<br>A textbook teaching Linear Algebra geometrically, application first, with computer exercises and data sets, interactive figures, and projects.<br>🤩🤩🤩 <a href="https://t.co/kQvoTuHHvP">pic.twitter.com/kQvoTuHHvP</a></p>&mdash; Alfredo Canziani (@alfcnz) <a href="https://twitter.com/alfcnz/status/1836849256407126406?ref_src=twsrc%5Etfw">September 19, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</details></p>
 
 ### Trefor
 
