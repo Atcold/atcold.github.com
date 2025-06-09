@@ -14,9 +14,9 @@ You can read more about my teaching philosophy and methods in [this article](htt
 ## Deep Learning courses
 
 - [NYU-AISP24](NYU-AISP24/)
-- [NYU-DLFL22](https://atcold.github.io/NYU-DLFL22/)
-- [NYU-DLSP21](https://atcold.github.io/NYU-DLSP21/)
-- [NYU-DLSP20](https://atcold.github.io/NYU-DLSP20/) (major release)
+- [NYU-DLFL22](NYU-DLFL22/)
+- [NYU-DLSP21](NYU-DLSP21/)
+- [NYU-DLSP20](NYU-DLSP20/) (major release)
 - [NYU-DLSP19](https://github.com/Atcold/NYU-DLSP20/releases/tag/dlsp19/)
 - [AIMS-DLFL19](https://github.com/Atcold/NYU-DLSP20/releases/tag/aims-fl18/)
 - [CoDaS-HEP18](https://github.com/Atcold/NYU-DLSP20/releases/tag/v1.0.0/)
