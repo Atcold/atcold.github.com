@@ -19,15 +19,15 @@ After merging their contributions (end of Sep?), a first draft of the book will 
 ## Book format
 
 The book is **highly** illustrated using $\LaTeX$'s packages [Ti*k*Z](https://www.ctan.org/pkg/pgf) and [PGFPlots](https://ctan.org/pkg/pgfplots/).
-The figures are numerically generated with the computations done in [Python](https://www.python.org/) using the [PyTorch](https://pytorch.org/) library.
-The output of such computations are stored as ASCII files and then read by $\LaTeX$ that visualises them.
+The figures are numerically generated, with the computations done in [Python](https://www.python.org/) using the [PyTorch](https://pytorch.org/) library.
+The output of such computations is stored as ASCII files and then read by $\LaTeX$ that visualises them.
 Moreover, most figures are *also* rendered on the Notebook using the [Matplotlib](https://matplotlib.org/) library.
 
 
 ### Why plotting with $\LaTeX$?
 
 Because I can control **every single aspect** of what is drawn.
-If I define the *hidden vector* $\green{\vect{h}} \in \green{\mathcal{H}}$ in the book, I can have a pair of axis lebelled $\green{h_1}$ and $\green{h_2}$ and the Cartesian plane labelled $\green{\mathcal{H}}$ without going (too) crazy.
+If I define the *hidden vector* $\green{\vect{h}} \in \green{\mathcal{H}}$ in the book, I can have a pair of axes lebelled $\green{h_1}$ and $\green{h_2}$ and the Cartesian plane labelled $\green{\mathcal{H}}$ without going (too) crazy.
 All my maths macros, symbols, font, font size, and colour are just controlled by **one single stylesheet** called `maths-preamble.tex`.
 
 
@@ -40,7 +40,7 @@ And if you've been my student, you already know that at the bottom left we'll ha
 
 ## Illustrations sneak peeks
 
-To keep myself motivated and avoid going crazy too much, I post the most painful drawings on Twitter, where my followers keep me sane by sending copious amount of love ❤️.
+To keep myself motivated and avoid going crazy too much, I post the most painful drawings on Twitter, where my followers keep me sane by sending a copious amount of love ❤️.
 You can find here a few of these tweets.
 
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -91,7 +91,7 @@ You can find here a few of these tweets.
 
 For the entire month of Aug and half of Sep I got stuck on implementing a working sparse coding algo for a low-dimensional toy example.
 **Nothing** was working for a long while, although I managed to get the expected result (see tweets below).
-Then, I spent a couple of weeks on the new semester's lectures, creating new content (slides below, video available soon) on back-propagation, which I've never taught at NYU, topic that will make it to the book.
+Then, I spent a couple of weeks on the new semester's lectures, creating new content (slides below, video available soon) on back-propagation, which I've never taught at NYU, a topic that will make it to the book.
 Anyhow, now I'm back to writing! 🤓
 
 <p><details>
@@ -108,9 +108,9 @@ Anyhow, now I'm back to writing! 🤓
 
 ## May 2023 update
 
-Oh boy, this 4<sup>th</sup> chapter took me while (mostly because I've focussed also on other things, including the Spring 2023 edition of the course)… but it's done now!
-In these last few months I've wrote about *undercomplete autoencoders* (AE), *denoising AE*, *variational AE*, *contractive AE*, and *generative adversarial nets*.
-Thanks to [Gabriel Peyré](https://twitter.com/gabrielpeyre), I've developed a method to separate stationary sinks and sources for a dynamics field (which I may write an article about), and it's integral part of the book explanations.
+Oh boy, this 4<sup>th</sup> chapter took me a while (mostly because I've focussed also on other things, including the Spring 2023 edition of the course)… but it's done now!
+In these last few months I've written about *undercomplete autoencoders* (AE), *denoising AE*, *variational AE*, *contractive AE*, and *generative adversarial nets*.
+Thanks to [Gabriel Peyré](https://twitter.com/gabrielpeyre), I've developed a method to separate stationary sinks and sources for a dynamics field (which I may write an article about), and it's an integral part of the book explanations.
 
 Moreover, I've been pushing a few videos from the Fall 2022 edition of the course, which give a preview on the chapters I've been writing, *e.g.* neural nets components, backpropagation (first time teaching it), energy-based classification, PyTorch training, K-means, and sparse coding (at least for now).
 Finally, over the Winter break, I've been teaching 12 years-olds about the maths and computer science behind generative AI, and I'm considering using [p5.js](https://p5js.org/) as a tool to teach programming to beginners.
@@ -151,7 +151,7 @@ Once the review is completed, a first draft will pop to this website for the pub
 
 <blockquote class="twitter-tweet" data-dnt="true" data-theme="dark"><p lang="en" dir="ltr">In this lecture, we start with two examples of decoder-only latent-variable EBM (𝐾-means and sparse coding), move to target-prop via amortised inference, to finally land the autoencoder architecture. 🤓<br>Back to using <a href="https://twitter.com/AdobeAE?ref_src=twsrc%5Etfw">@AdobeAE</a> for the animations! 🥳<a href="https://t.co/ATbVwuxmcC">https://t.co/ATbVwuxmcC</a> 🎥 <a href="https://t.co/kWEF68cE9Q">pic.twitter.com/kWEF68cE9Q</a></p>&mdash; Alfredo Canziani (@alfcnz) <a href="https://twitter.com/alfcnz/status/1630642589677305859?ref_src=twsrc%5Etfw">February 28, 2023</a></blockquote>
 
-<h3>Teaching Italian 7th graders</h3>
+<h3>Teaching Italian 7<sup>th</sup> graders</h3>
 
 <blockquote class="twitter-tweet" data-dnt="true" data-theme="dark"><p lang="en" dir="ltr">I taught 4 hours of Deep Learning to a class of 7th graders. I didn’t dumb it down at all. I just used the same analogies and explanations I use with the grown ups. By the end I was in love with their young and fresh minds and total absolute attention. ❤️<a href="https://t.co/CFP4Mkarwx">https://t.co/CFP4Mkarwx</a> <a href="https://t.co/Ng0veJLftq">pic.twitter.com/Ng0veJLftq</a></p>&mdash; Alfredo Canziani (@alfcnz) <a href="https://twitter.com/alfcnz/status/1615721421254328320?ref_src=twsrc%5Etfw">January 18, 2023</a></blockquote>
 
@@ -164,13 +164,13 @@ Once the review is completed, a first draft will pop to this website for the pub
 
 Of course, during the Summer it was unrealistic expecting anyone to review anything…
 Anyhow, I've just got back from O‘ahu (ICML23) and Maui (2 days before [Lahaina burnt down](https://en.wikipedia.org/wiki/Lahaina,_Hawaii#2023_wildfire)) and finished the Backprop chapter, therefore the first draft will have 5 chapters in total as of right now.
-Below you can see a few diagrams I've developed over these Summer months.
+Below, you can see a few diagrams I've developed over these summer months.
 
 The new semester starts in two weeks, so I'll be a bit busy with that.
 I need to plan a possible chapter on joint embedding methods and start working on PART II of the book: ‘geometric stuff’.
 
 About books, I've just received my copy of [*The Little Book of Deep Learning*](https://fleuret.org/francois/lbdl.html) by [François Fleuret](https://twitter.com/francoisfleuret).
-I have to say it is *really* well made and I *really* like it.
+I have to say it is *really* well-made, and I *really* like it.
 It's a bit on the terse side, but I haven't decided if it's a pro or a con.
 
 <p><details>
@@ -188,4 +188,193 @@ It's a bit on the terse side, but I haven't decided if it's a pro or a con.
 
 </details></p>
 
-<p class="last-edit">Last update: 16 Aug 2023.</p>
+
+## Jun 2025 update
+
+Oh boy… it's been two years since the last update…
+Let met tell you what's happened since the last time I wrote something here.
+
+
+### Autumn 2023
+
+We left off at draft v0.5.0, with 5 chapters completed (Backprop being the last one).
+During autumn 2023 I completed the 6<sup>th</sup> chapter (Signals, draft v0.6.0), and started working on recurrent nets.
+
+<p><details>
+<summary>Load tweets (may take a few seconds)</summary>
+
+<blockquote class="twitter-tweet" data-dnt="true" data-theme="dark"><p lang="en" dir="ltr">«Chapter 6»<br>In this chapter, we&#39;ll introduce several geometric structures, over which functions are defined, and whose properties can be exploited to reduce computations and ease learning, giving rise to several architecture families we&#39;ll cover in this part of the book. <a href="https://t.co/sTPeSZnlx5">pic.twitter.com/sTPeSZnlx5</a></p>&mdash; Alfredo Canziani (@alfcnz) <a href="https://twitter.com/alfcnz/status/1694746094683451455?ref_src=twsrc%5Etfw">August 24, 2023</a></blockquote>
+
+<blockquote class="twitter-tweet" data-dnt="true" data-theme="dark"><p lang="en" dir="ltr">«Chapter 7»<br>*Recurrent neural nets* are characterised by the presence of *cyclic connections*. They have a *distributed hidden state* with *non-linear dynamics*. The network uses information from its previous state as part of its computation for the current state. <a href="https://t.co/xpecYuHEsw">pic.twitter.com/xpecYuHEsw</a></p>&mdash; Alfredo Canziani (@alfcnz) <a href="https://twitter.com/alfcnz/status/1714727450897240225?ref_src=twsrc%5Etfw">October 18, 2023</a></blockquote>
+
+<blockquote class="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">Text &amp; maths vs. diagram &amp; caption.<br>They convey the same information in a very different form. 🤓🤓🤓 <a href="https://t.co/bmdFIEKNFP">pic.twitter.com/bmdFIEKNFP</a></p>&mdash; Alfredo Canziani (@alfcnz) <a href="https://twitter.com/alfcnz/status/1716879369212473630?ref_src=twsrc%5Etfw">October 24, 2023</a></blockquote>
+
+<blockquote class="twitter-tweet" data-dnt="true" data-theme="dark"><p lang="en" dir="ltr">Yesterday I wrote two pages of maths, with upper bounds for the computation of a gradient, using Cauchy-Schwarz inequality and other ‘tricks’.<br>Today I drew a picture, which summarises two pages of equations.<br>Although the maths was necessary, the figure is what I see in my mind. <a href="https://t.co/35e9lPudRz">pic.twitter.com/35e9lPudRz</a></p>&mdash; Alfredo Canziani (@alfcnz) <a href="https://twitter.com/alfcnz/status/1716910666009989183?ref_src=twsrc%5Etfw">October 24, 2023</a></blockquote>
+
+<blockquote class="twitter-tweet" data-dnt="true" data-theme="dark"><p lang="en" dir="ltr">A or B and why? <a href="https://t.co/LaZ9ruxZQe">pic.twitter.com/LaZ9ruxZQe</a></p>&mdash; Alfredo Canziani (@alfcnz) <a href="https://twitter.com/alfcnz/status/1719085123394576684?ref_src=twsrc%5Etfw">October 30, 2023</a></blockquote>
+
+<blockquote class="twitter-tweet" data-dnt="true" data-theme="dark"><p lang="en" dir="ltr">A or B and why? <a href="https://t.co/faz5nv4OQL">pic.twitter.com/faz5nv4OQL</a></p>&mdash; Alfredo Canziani (@alfcnz) <a href="https://twitter.com/alfcnz/status/1719091912269758540?ref_src=twsrc%5Etfw">October 30, 2023</a></blockquote>
+
+</details></p>
+
+My coworker, [Brian McFee](https://brianmcfee.net/) publishes [*Digital Signals Theory*](https://x.com/alfcnz/status/1716823500655309149), an introductory textbook for non-technical people.
+
+
+### Spring 2024
+
+I'm promoted to full-time teaching faculty, with two courses a semester.
+More precisely, I'm co-teaching a (classical?) symbolic and statistical AI course (don't ask) to 130 students **with no teaching assistant**.
+(In addition to my 80-student graduate Deep Learning course, for a gran total of 210 students.)
+Therefore, I start working 7 days a week, 12 hours a day.
+
+We decide to split the duties across the semester: I'm in charge of the second 'learning' part.
+
+Now the fun part.
+Students don't come to class (it's not necessary for solving the first part's homework), my slides do not have text, students complain they cannot 'read' the slides by their own, my exam is about the knowledge covered in class, I get a tonne of negative reviews on Rate My Professor.
+A few months later, I become the target of several angry, hateful students.
+I almost lost my job.
+
+Book?
+What book?
+Who has time to focus on anything else?
+
+Yet, I publish some of my lectures as [NYU-AISP24](NYU-AISP24/).
+
+
+### Summer 2024
+
+I interview Yann LeCun and [Léon Bottou](https://leon.bottou.org/).
+I put together 3 [blog posts](blog/) on SN, Yann and Léon's 1988 *Simulateur de Neurones* learning framework.
+Furthermore, I write a blog about 'visual requirements' for my grad course.
+
+<p><details>
+<summary>Load tweets (may take a few seconds)</summary>
+
+<blockquote class="twitter-tweet" data-dnt="true" data-theme="dark"><p lang="en" dir="ltr">I wrote two blog posts about SN, Léon Bottou and <a href="https://twitter.com/ylecun?ref_src=twsrc%5Etfw">@ylecun</a>&#39;s 1988 Simulateur de Neurones.<br>One is an English translation of the original paper, for which I&#39;ve reproduced the figures. The other is a tutorial on how to run their code on Apple silicon.<a href="https://t.co/YEARKgePSK">https://t.co/YEARKgePSK</a> <a href="https://t.co/7ZTdAZEZBz">pic.twitter.com/7ZTdAZEZBz</a></p>&mdash; Alfredo Canziani (@alfcnz) <a href="https://twitter.com/alfcnz/status/1821985890585174430?ref_src=twsrc%5Etfw">August 9, 2024</a></blockquote>
+
+<blockquote class="twitter-tweet" data-dnt="true" data-theme="dark"><p lang="en" dir="ltr">Dropping a new blog on «Visual prerequisites for learning deep learning». Nothing new. Just my recommendations, explicitly listed for former and future students’ benefit.<a href="https://t.co/qihKsZ9iNr">https://t.co/qihKsZ9iNr</a> <a href="https://t.co/BICD7KIyha">pic.twitter.com/BICD7KIyha</a></p>&mdash; Alfredo Canziani (@alfcnz) <a href="https://twitter.com/alfcnz/status/1832173812500042192?ref_src=twsrc%5Etfw">September 6, 2024</a></blockquote>
+
+<blockquote class="twitter-tweet" data-dnt="true" data-theme="dark"><p lang="en" dir="ltr">Simulateur de Neurones (SN), one of the earliest deep learning frameworks, already had interactive and graphic capabilities ~30 years ago.<br>In this blog post, you can learn more about a PyTorch ancestor, used to train the first convnet.<a href="https://t.co/xEjpMQIypD">https://t.co/xEjpMQIypD</a> <a href="https://t.co/XqWAearY2X">pic.twitter.com/XqWAearY2X</a></p>&mdash; Alfredo Canziani (@alfcnz) <a href="https://twitter.com/alfcnz/status/1841207992525508878?ref_src=twsrc%5Etfw">October 1, 2024</a></blockquote>
+
+</details></p>
+
+### Autumn 2024
+
+I'm still teaching two courses a semester, but one is an offering for alumni of my graduate Deep Learning course.
+Therefore, there's minimal overhead and I can get back to writing.
+
+I complete the History (7<sup>th</sup>) chapter (draft v0.7.0).
+I push a little more, and complete the RNN (8<sup>th</sup>) chapter (draft v0.8.0).
+Finally, I start the TikZ (9<sup>th</sup>) chapter, where I explain how I draw all my book's figures.
+
+I become a hate crime victim, target of a psychopath, who verbally threats me.
+I fear for my safety and file a police report.
+In retaliation, the psychopath proceeds with a defamation campaign, trying to destroy my public figure.
+
+<p><details>
+<summary>Load tweets (may take a few seconds)</summary>
+
+<blockquote class="twitter-tweet" data-dnt="true" data-theme="dark"><p lang="en" dir="ltr">It&#39;s so funny… 😬 This past Spring semester I found myself forced to teach GOFAI… and now I am actually able to share my understanding and perspective in the historical chapter of my book. 🥲<br>I guess knowledge is always a good thing. 😅 <a href="https://t.co/P4Wagseuds">pic.twitter.com/P4Wagseuds</a></p>&mdash; Alfredo Canziani (@alfcnz) <a href="https://twitter.com/alfcnz/status/1824175269558751431?ref_src=twsrc%5Etfw">August 15, 2024</a></blockquote>
+
+<blockquote class="twitter-tweet" data-dnt="true" data-theme="dark"><p lang="en" dir="ltr">By encoding memories as attractors in a dynamical system, one can retrieve them when presented with corrupted or partial stimuli. From a high-energy configuration, the system will spontaneously relax to a low-energy state.<br>Can anyone guess what model we&#39;re talking about? 🤓 <a href="https://t.co/slJpjd7VJN">pic.twitter.com/slJpjd7VJN</a></p>&mdash; Alfredo Canziani (@alfcnz) <a href="https://twitter.com/alfcnz/status/1825993832833470837?ref_src=twsrc%5Etfw">August 20, 2024</a></blockquote>
+
+<blockquote class="twitter-tweet" data-dnt="true" data-theme="dark"><p lang="en" dir="ltr">I&#39;m really having a blast at writing the historical section side notes! 🤩🤩🤩<br>After the 1969 Minsky &amp; Papert book, we went through the first AI winter. Widrow, kept working on neural nets but rebranded them as adaptive filters, which are now ubiquitous. <a href="https://t.co/MD7eVuZZOq">pic.twitter.com/MD7eVuZZOq</a></p>&mdash; Alfredo Canziani (@alfcnz) <a href="https://twitter.com/alfcnz/status/1831083339832504683?ref_src=twsrc%5Etfw">September 3, 2024</a></blockquote>
+
+<blockquote class="twitter-tweet" data-dnt="true" data-theme="dark"><p lang="en" dir="ltr">Putting all together, we have the following result. 🤓🤓🤓<br><br>𝚙𝚕𝚘𝚝_𝚠𝚎𝚒𝚐𝚑𝚝𝚜 allows us to inspect the dependencies of the hidden state wrt the input and the previous hidden representation. It also allows us to view the output linear combination of hidden units. <a href="https://t.co/tlADa7jd7D">https://t.co/tlADa7jd7D</a> <a href="https://t.co/xUEVqnlBhh">pic.twitter.com/xUEVqnlBhh</a></p>&mdash; Alfredo Canziani (@alfcnz) <a href="https://twitter.com/alfcnz/status/1845910334361461203?ref_src=twsrc%5Etfw">October 14, 2024</a></blockquote>
+
+<blockquote class="twitter-tweet" data-dnt="true" data-theme="dark"><p lang="en" dir="ltr">One more chapter completed! 🥳🥳🥳<br>This one actually ended is a funny way 😅😅😅<br>Anyhow, posting this to share the gates&#39; histogram overlay with the activation function to show the operation mode (biasing) of the soft switches. <a href="https://t.co/DinSLTcAsb">pic.twitter.com/DinSLTcAsb</a></p>&mdash; Alfredo Canziani (@alfcnz) <a href="https://twitter.com/alfcnz/status/1847007012875338165?ref_src=twsrc%5Etfw">October 17, 2024</a></blockquote>
+
+<blockquote class="twitter-tweet" data-dnt="true" data-theme="dark"><p lang="en" dir="ltr">You asked me to show you my secretes… so here we go!<br>Taking a small break from DL for writing an appendix on procedural graphics. I hope you&#39;ll find it useful! 😊😊😊 <a href="https://t.co/UjQioTWbKB">pic.twitter.com/UjQioTWbKB</a></p>&mdash; Alfredo Canziani (@alfcnz) <a href="https://twitter.com/alfcnz/status/1848415808038592812?ref_src=twsrc%5Etfw">October 21, 2024</a></blockquote>
+
+<blockquote class="twitter-tweet" data-dnt="true" data-theme="dark"><p lang="en" dir="ltr">Thursday I tried to teach something I couldn&#39;t see clearly… oh man… what a drag… 😭😭😭<br>I had to relearn how to see what I was talking about. 😩😩😩<br>And now that I can see, let me draw it, so I won&#39;t unsee it again! 🤓🤓🤓 <a href="https://t.co/79x1mnWCux">pic.twitter.com/79x1mnWCux</a></p>&mdash; Alfredo Canziani (@alfcnz) <a href="https://twitter.com/alfcnz/status/1853867370579632137?ref_src=twsrc%5Etfw">November 5, 2024</a></blockquote>
+
+<blockquote class="twitter-tweet" data-dnt="true" data-theme="dark"><p lang="tl" dir="ltr">Daily TikZ show off. 😁😁😁 <a href="https://t.co/E3FCt0HsDF">pic.twitter.com/E3FCt0HsDF</a></p>&mdash; Alfredo Canziani (@alfcnz) <a href="https://twitter.com/alfcnz/status/1854582709055598838?ref_src=twsrc%5Etfw">November 7, 2024</a></blockquote>
+
+<blockquote class="twitter-tweet" data-dnt="true" data-theme="dark"><p lang="en" dir="ltr">In 1962, Hubel and Wiesel uncovered how neurons in cats&#39; brain respond to specific visual stimuli, such as edges, lines, and movement.<br>The visual cortex processes info hierarchically, simple cells respond to basic features and complex cells build location invariance. <a href="https://t.co/KyKQekOCcz">pic.twitter.com/KyKQekOCcz</a></p>&mdash; Alfredo Canziani (@alfcnz) <a href="https://twitter.com/alfcnz/status/1866232798605877455?ref_src=twsrc%5Etfw">December 9, 2024</a></blockquote>
+
+</details></p>
+
+
+### Spring 2025
+
+I'm given the opportunity to decide what my second course is.
+Therefore, I put together an undergraduate 'Introduction to Deep Learning' blackboard course.
+Mum gifts me a [chalk holder](https://x.com/alfcnz/status/1881818035134374222).
+I have **zero** registered students one week prior to the beginning of the semester.
+The admin tells me they will likely have to cancel my course, and I'll be assigned some other random stuff to teach.
+
+We're having fun in class.
+Students are easily amused by this silly prof.
+
+For the second lecture, I spend roughly 4 hours tweaking my slides.
+I go to class and decided to give an introduction before turning on my laptop and the projector.
+One hour and a half later… the blackboard is a copy of the slides I planned to use 😅
+
+<p><details>
+<summary>Load tweets (may take a few seconds)</summary>
+<blockquote class="twitter-tweet" data-dnt="true" data-theme="dark"><p lang="en" dir="ltr">I think it&#39;s going well. At least we&#39;re having fun! 😁😁😁 <a href="https://t.co/fgg8NR1HSQ">pic.twitter.com/fgg8NR1HSQ</a></p>&mdash; Alfredo Canziani (@alfcnz) <a href="https://twitter.com/alfcnz/status/1882536947597574600?ref_src=twsrc%5Etfw">January 23, 2025</a></blockquote>
+
+<blockquote class="twitter-tweet" data-dnt="true" data-theme="dark"><p lang="en" dir="ltr">Tue morning: *prepares slides*<br>Tue class: *improv blackboard lecture*<br>Outcome: unexpectedly great lecture.<br>Thu morning: *prep handwritten notes*<br>Thu class: *executes blackboard lecture*<br>Students: 🤩🤩🤩🤩🤩🤩🤩🤩🤩 <a href="https://t.co/pXgPVz8ajB">pic.twitter.com/pXgPVz8ajB</a></p>&mdash; Alfredo Canziani (@alfcnz) <a href="https://twitter.com/alfcnz/status/1885059421685862657?ref_src=twsrc%5Etfw">January 30, 2025</a></blockquote>
+</details></p>
+
+This is fun! 🤩
+I get the hang of it and start crafting live coloured blackboard.
+Students are enthusiastic and hyped.
+
+<p><details>
+<summary>Load tweet</summary>
+<blockquote class="twitter-tweet" data-dnt="true" data-theme="dark"><p lang="en" dir="ltr">In today&#39;s episode, we review the concepts of loss ℒ(𝘄, 𝒟), per-sample loss L(𝘄, x, y), binary cross-entropy cost ℍ(y, ỹ) = y softplus(−s) + (1−y) softplus(s), ỹ = σ(𝘄ᵀ𝗳(x)).<br>Then, we minimised the loss by choosing convenient values for our weight vector 𝘄. <a href="https://t.co/axI0Jje8JC">pic.twitter.com/axI0Jje8JC</a></p>&mdash; Alfredo Canziani (@alfcnz) <a href="https://twitter.com/alfcnz/status/1889422406340714850?ref_src=twsrc%5Etfw">February 11, 2025</a></blockquote>
+</details></p>
+
+I go teach in Santiago of Chile for [Khipu 2025](https://khipu.ai/), and I get Yann to cover for me.
+
+<p><details>
+<summary>Load tweet</summary>
+<blockquote class="twitter-tweet" data-dnt="true" data-theme="dark"><p lang="en" dir="ltr">While I was away, teaching for <a href="https://twitter.com/Khipu_AI?ref_src=twsrc%5Etfw">@Khipu_AI</a>, I got ‘someone’ to teach my blackboard undergrad course.<br>It turns out teaching (undergrad) is like riding a bike. Even though you&#39;re out of practice, you still know how to do it! 😀😀😀 <a href="https://t.co/Uz8PzAJC4H">pic.twitter.com/Uz8PzAJC4H</a></p>&mdash; Alfredo Canziani (@alfcnz) <a href="https://twitter.com/alfcnz/status/1904962219193888937?ref_src=twsrc%5Etfw">March 26, 2025</a></blockquote>
+</details></p>
+
+I get back to FPGA Verilog programming, Spice CMOS simulation, and digital electronics.
+
+<p><details>
+<summary>Load tweets (may take a few seconds)</summary>
+
+<blockquote class="twitter-tweet" data-dnt="true" data-theme="dark"><p lang="en" dir="ltr">Getting my toes wet with FPGA prototyping. 🤓<br>There are two always blocks:<br> • the first counts up to 13.5M, which takes 0.5 seconds with a clock of 27MHz;<br> • the second reset the LED configuration to 6&#39;b111110 and every 0.5s moves the 0 on step to the left. <a href="https://t.co/jLrEy62tiU">pic.twitter.com/jLrEy62tiU</a></p>&mdash; Alfredo Canziani (@alfcnz) <a href="https://twitter.com/alfcnz/status/1910811135458017640?ref_src=twsrc%5Etfw">April 11, 2025</a></blockquote>
+
+<blockquote class="twitter-tweet" data-dnt="true" data-theme="dark"><p lang="en" dir="ltr">Digital, by Helmut Neemann, allows you to design and simulate digital logic, and it&#39;s designed for educational purposes. It has a Verilog export feature that helps you to understand how hardware description languages work. 🤓🤓🤓<a href="https://t.co/kPOx30GvFw">https://t.co/kPOx30GvFw</a> <a href="https://t.co/d1WxA5VcMj">pic.twitter.com/d1WxA5VcMj</a></p>&mdash; Alfredo Canziani (@alfcnz) <a href="https://twitter.com/alfcnz/status/1910550890907389964?ref_src=twsrc%5Etfw">April 11, 2025</a></blockquote>
+
+<blockquote class="twitter-tweet" data-dnt="true" data-theme="dark"><p lang="en" dir="ltr">Alright, getting the hang of it! 🥲<br>I haven&#39;t seen a less intuitive GUI in a while… yet, it *is* functional. I guess the author really wants you to switch to the keyboard shortcuts rather than right-clicking your way through! 🥹<br>BTW, LTspice is free of charge! <a href="https://t.co/CvwgDP6xQ5">pic.twitter.com/CvwgDP6xQ5</a></p>&mdash; Alfredo Canziani (@alfcnz) <a href="https://twitter.com/alfcnz/status/1917070310525768017?ref_src=twsrc%5Etfw">April 29, 2025</a></blockquote>
+
+<blockquote class="twitter-tweet" data-dnt="true" data-theme="dark"><p lang="en" dir="ltr">Today we&#39;re playing with diode logic.<br>This component allows us only to perform a logic AND and OR. There is no NOT unless active components are used.<a href="https://t.co/lAmeqgqGAM">https://t.co/lAmeqgqGAM</a> <a href="https://t.co/b30dIN2WH8">pic.twitter.com/b30dIN2WH8</a></p>&mdash; Alfredo Canziani (@alfcnz) <a href="https://twitter.com/alfcnz/status/1917800272786489546?ref_src=twsrc%5Etfw">May 1, 2025</a></blockquote>
+
+</details></p>
+
+In class, I experiment a lot with the guided discovery pedagogical technique and having the students being the major actors, to a point that lecture 20 got completely derailed by a student, who kept steering the thread, prompted by his own curiosity.
+I was so ecstatic about the outcome (it was pure jazz), that I decided to publish the lecture to advertise the course to other students.
+
+<p><details>
+<summary>Load tweet</summary>
+<blockquote class="twitter-tweet" data-dnt="true" data-theme="dark"><p lang="en" dir="ltr">In this lecture from my new undergrad course, we review linear multiclass classification, leverage backprop and gradient descent to learn a linearly separable feature vector for the input, and observe the training dynamics in a 2D embedding space. 🤓<a href="https://t.co/k4p0JwPtB7">https://t.co/k4p0JwPtB7</a> <a href="https://t.co/sCgnkiPenA">pic.twitter.com/sCgnkiPenA</a></p>&mdash; Alfredo Canziani (@alfcnz) <a href="https://twitter.com/alfcnz/status/1910036084865786192?ref_src=twsrc%5Etfw">April 9, 2025</a></blockquote>
+</details></p>
+
+Finally, I create a new animation about training a neural network for classification, reviving code written 5 years ago.
+
+<p><details>
+<summary>Load tweet</summary>
+<blockquote class="twitter-tweet" data-dnt="true" data-theme="dark"><p lang="en" dir="ltr">Training of a 2 → 100 → 2 → 5 fully connected ReLU neural net via cross-entropy minimisation.<br>• it starts outputting small embeddings<br>• around epoch 300 learns an identity function<br>• takes 1700 epochs more to unwind the data manifold <a href="https://t.co/gzCMnA5rb0">pic.twitter.com/gzCMnA5rb0</a></p>&mdash; Alfredo Canziani (@alfcnz) <a href="https://twitter.com/alfcnz/status/1909458517670453500?ref_src=twsrc%5Etfw">April 8, 2025</a></blockquote>
+</details></p>
+
+For this course, I had the pleasure to have an unofficial assistant, [Gabriele Pintus](https://www.linkedin.com/in/gabriele-gavino-pintus/), who has been writing his Master's thesis on JEPA models with me, here at NYU.
+Thanks to him, the homework were spectacularly well-made, and students extremely happy.
+
+Book?
+No time.
+
+
+### Summer 2025
+
+Yann agrees to review the book in July, finally allowing me to release the first book's draft.
+I complete and [release](https://github.com/Atcold/Energy-Book/releases/tag/v0.9.0) the 9<sup>th</sup> chapter, TikZ, bumping the draft to v0.9.0.
+The next update should happen around the end of July, where I should be able to share with you the first draft of the book.
+Now, I'm getting started with the 10<sup>th</sup> chapter, Control.
+
+<p class="last-edit">Last update: 9 Jun 2025.</p>
