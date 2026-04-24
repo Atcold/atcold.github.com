@@ -15,8 +15,8 @@ You can read more about my teaching philosophy and methods in [this article](htt
 
 - [NYU-DLFL25U](NYU-DLFL25U/) (major release, undergraduate)
 - [NYU-AISP24](NYU-AISP24/)
-- [NYU-DLFL22](NYU-DLFL22/) (major release, graduate)
-- [NYU-DLSP21](NYU-DLSP21/)
+- [NYU-DLFL22](NYU-DLFL22/)
+- [NYU-DLSP21](NYU-DLSP21/) (major release, graduate)
 - [NYU-DLSP20](NYU-DLSP20/) (major release, graduate)
 - [NYU-DLSP19](https://github.com/Atcold/NYU-DLSP20/releases/tag/dlsp19/)
 - [AIMS-DLFL19](https://github.com/Atcold/NYU-DLSP20/releases/tag/aims-fl18/)
