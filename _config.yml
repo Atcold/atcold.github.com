@@ -4,10 +4,18 @@ plugins:
 remote_theme: jekyll/minima
 minima:
   skin: dark
+  # Minima's _includes/social.html reads title/icon/url; the older
+  # platform/user_url keys render as empty links with no icon.
   social_links:
-    - { platform: twitter, user_url: "https://twitter.com/alfcnz" }
-    - { platform: github,  user_url: "https://github.com/Atcold" }
-    - { platform: youtube,  user_url: "https://www.youtube.com/channel/UCupQLyNchb9-2Z5lmUOIijw" }
+    - title: Alfredo Canziani on Twitter
+      icon: twitter
+      url: "https://twitter.com/alfcnz"
+    - title: Alfredo Canziani on GitHub
+      icon: github
+      url: "https://github.com/Atcold"
+    - title: Alfredo Canziani on YouTube
+      icon: youtube
+      url: "https://www.youtube.com/channel/UCupQLyNchb9-2Z5lmUOIijw"
 google_analytics: G-NGQWNXRS74
 highlighter: rouge
 kramdown:
