@@ -129,3 +129,36 @@ td blockquote {
   margin-top: 10px;
   margin-bottom: 5px;
 }
+
+// Extension icons, inline with their heading on the Software page.
+// The gap is margin, not a literal space: a space inside the link is ordinary
+// inline text and picks up the hover underline, leaving a stub between icon
+// and title. Same reason .ext-out is an inline-block.
+.ext-icon {
+  width: 1.1em;
+  height: 1.1em;
+  vertical-align: -0.15em;
+  margin-right: 0.35em;
+}
+
+// A linked heading keeps its heading colour; the site's grey underline marks the hover
+.post-content h1 a, .post-content h2 a, .post-content h3 a {
+  color: inherit !important;
+}
+
+// Browsers underline abbr[title] with a dotted line by default, which makes the
+// emoji abbreviations look misspelt. The tooltip is cue enough.
+abbr[title] {
+  text-decoration: none;
+}
+
+// The "leaves the site" arrow after a linked title.
+// display: inline-block keeps the link's hover underline from running under the
+// arrow — an ancestor's text-decoration propagates into inline descendants and
+// cannot be switched off by them, but it does not enter an atomic inline box.
+.ext-out {
+  display: inline-block;
+  margin-left: 0.25em;
+  font-size: 0.75em;
+  opacity: 0.55;
+}
