@@ -1,0 +1,15 @@
+# The defaults assume plain Markdown; these pages are Jekyll + kramdown, so two
+# rules fire constantly on things that are deliberate here.
+
+# MD012/no-multiple-blanks — two blank lines are the section separator used
+# site-wide. Raised to two, so a stray third is still reported.
+MD012:
+  maximum: 2
+
+# MD013/line-length — off. Lines are broken per sentence, not per column; the
+# wrapping is invisible once rendered, and long lines here are mostly link URLs.
+MD013: false
+
+# MD033/no-inline-html — off. Markdown cannot attach a class or attribute, and
+# these pages need it: <p class="last-edit">, <img>, <span>, <abbr>, <details>.
+MD033: false
