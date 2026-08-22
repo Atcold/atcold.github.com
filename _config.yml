@@ -20,6 +20,9 @@ minima:
       url: "https://www.youtube.com/channel/UCupQLyNchb9-2Z5lmUOIijw"
 google_analytics: G-NGQWNXRS74
 highlighter: rouge
+sass:
+  # Silences the Dart Sass deprecation warnings minima's own skins emit.
+  quiet_deps: true
 kramdown:
     math_engine: katex
     syntax_highlighter: rouge
