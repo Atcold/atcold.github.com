@@ -4,6 +4,8 @@ plugins:
 remote_theme: jekyll/minima
 minima:
   skin: dark
+  # No RSS feed here, so drop the feed icon minima's social.html adds.
+  hide_site_feed_link: true
   # Minima's _includes/social.html reads title/icon/url; the older
   # platform/user_url keys render as empty links with no icon.
   social_links:
