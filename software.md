@@ -30,6 +30,14 @@ Works in notebook cells, code and markdown alike, in the Interactive Window, and
 The lack of this functionality was the only reason why I couldn't move away from Jupyter… well, until now.
 
 
+## iOS apps
+
+### [UniType<span class="ext-out">↗</span>](https://github.com/skarakulak/latex-keyboard/) (private for now)
+
+The same `\beta` → `β` idea, on an iPhone.
+A keyboard for writing formulas, not for everyday typing: over 4k LaTeX commands are turned into Unicode as you type, and a long-press on any key offers subscripts, superscripts, Greek, calligraphic, and blackboard-bold variants.
+
+
 ## Terminal
 
 [Unix-dot-files](https://github.com/Atcold/Unix-dot-files/) is my configuration for Bash, Git, Vim and Nvim, Tmux, Ranger, LaTeX, and Claude, cloned into `~/.settings` and symlinked from there, on both Linux and macOS.
